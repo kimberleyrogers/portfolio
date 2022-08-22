@@ -5,6 +5,7 @@ function Contact() {
     const [who, setWho] = useState('');
     const [email, setEmail] = useState('');
     const [comments, setComments] = useState('');
+    const [what, setWhat] = useState('');
     // another for radio buttons
 
 
@@ -31,12 +32,15 @@ function Contact() {
                 />
                 {/* radio buttons here */}
                 <label>What kind of enquiry is this?</label>
-                <div>
-                    <p>Job Offer</p>
-                    <p>Chance to Network</p>
-                    <p>Salacious Gossip</p>
-                    <p>Feedback or Comments</p>
-                </div>
+                <select
+                    value={what}
+                    onChange = {(e) => setWhat(e.target.value)}
+                >
+                    <option value="job">Job Offer</option>
+                    <option value="network">Chance to Network</option>
+                    <option value="gossip">Salacious Gossip</option>
+                    <option value="feedback">Feedback or Comments</option>
+                </select>
                 <label>Talk to me...</label>
                 <textarea
                     type="text"

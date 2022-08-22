@@ -39,7 +39,8 @@
 
 .form {
   display: grid;
-  grid-template-rows: repeat(8, 100px);
+  grid-template-rows: repeat(8, auto);
+  padding: 25px;
 }
 
 .project-grid {
