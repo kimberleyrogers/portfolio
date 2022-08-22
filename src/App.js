@@ -15,8 +15,10 @@ function App() {
     <div className="app">
 
       <div className="nav-bar">
-        <a href="https://github.com/kimberleyrogers"><h2>github</h2></a>
-        <a href="https://www.linkedin.com/in/kimberley-rogers-melb/"><h2>linkedin</h2></a>
+        {/* eslint-disable-next-line */}
+        <a href="https://github.com/kimberleyrogers" target="_blank"><h2>github</h2></a>
+        {/* eslint-disable-next-line */}
+        <a href="https://www.linkedin.com/in/kimberley-rogers-melb/" target="_blank"><h2>linkedin</h2></a>
         <a href="hello"><h2>resume</h2></a>
         {/* make the internal links have 'link mouse' on hover to match the above */}
         <h2 onClick={() => setContainerContent('portfolio')}>projects</h2>

@@ -12,7 +12,7 @@ function Contact() {
     return (
         <div className="central-container">
             <h2>this is a contact form</h2>
-            <form>
+            <form className="form">
                 <label>Who are you?</label>
                 <input
                     type="text"
@@ -31,10 +31,12 @@ function Contact() {
                 />
                 {/* radio buttons here */}
                 <label>What kind of enquiry is this?</label>
-                <p>Job Offer</p>
-                <p>Chance to Network</p>
-                <p>Salacious Gossip</p>
-                <p>Feedback or Comments</p>
+                <div>
+                    <p>Job Offer</p>
+                    <p>Chance to Network</p>
+                    <p>Salacious Gossip</p>
+                    <p>Feedback or Comments</p>
+                </div>
                 <label>Talk to me...</label>
                 <textarea
                     type="text"
