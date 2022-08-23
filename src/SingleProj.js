@@ -4,13 +4,12 @@ function SingleProj({proj, setProj}) {
 
 
     return (
-        <div className="central-container">
-            <h2>this is a single project {proj}</h2>
-            <p>{projects[proj]['name']}</p>
+        <div>
+            <h2>{projects[proj]['name']}</h2>
             <p>{projects[proj]['blurb']}</p>
-            <p>{projects[proj]['githubUrl']}</p>
-            <p>{projects[proj]['liveSite']}</p>
-            <p>{projects[proj]['image']}</p>
+            <a href="{projects[proj]['githubUrl']}"><button>View Code</button></a>
+            <a href="{projects[proj]['liveSite']}"><button>Visit Site</button></a>
+            <img src="{projects[proj]['image']}" alt="thumbnail of project"/>
         </div>
     )
 }

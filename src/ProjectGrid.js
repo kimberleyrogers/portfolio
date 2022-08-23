@@ -1,4 +1,5 @@
-import SingleProj from "./SingleProj"
+import SingleProj from "./SingleProj";
+import projects from './projectInfo.js';
 
 
 function ProjectGrid({setContainerContent, proj, setProj}) {
@@ -8,14 +9,13 @@ console.log(proj)
     if (proj === 'main') {
         return (
             <div className="central-container">
-                <h2>this section for project iframes</h2>
                 <div className="project-grid">
-                    <div className="single-proj" onClick = {() => {setProj("0")}}>0</div>
-                    <div className="single-proj" onClick = {() => {setProj("1")}}>1</div>
-                    <div className="single-proj" onClick = {() => {setProj("2")}}>2</div>
-                    <div className="single-proj" onClick = {() => {setProj("3")}}>3</div>
-                    <div className="single-proj" onClick = {() => {setProj("4")}}>4</div>
-                    <div className="single-proj" onClick = {() => {setProj("5")}}>5</div>
+                    <div className="single-proj" onClick = {() => {setProj("0")}}>{projects[0]['name']}</div>
+                    <div className="single-proj" onClick = {() => {setProj("1")}}>{projects[1]['name']}</div>
+                    <div className="single-proj" onClick = {() => {setProj("2")}}>{projects[2]['name']}</div>
+                    <div className="single-proj" onClick = {() => {setProj("3")}}>{projects[3]['name']}</div>
+                    <div className="single-proj" onClick = {() => {setProj("4")}}>{projects[0]['name']}</div>
+                    <div className="single-proj" onClick = {() => {setProj("5")}}>{projects[0]['name']}</div>
                 </div>
             </div>
         )
