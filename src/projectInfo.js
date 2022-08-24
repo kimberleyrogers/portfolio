@@ -35,7 +35,21 @@ const projects = [
         githubUrl: "https://github.com/kimberleyrogers/portfolio",
         blurb: "Are you sitting down? ... I made this website too. A colourful, single page React website.",
         liveSite: "https://dashboard.heroku.com/apps/glacial-inlet-94461",
-        used: "",
+        used: "React.js | Node.js",
+    },
+    {
+        name: 'Coming soon.... client portfolio',
+        githubUrl: "",
+        blurb: "React based portfolio for creative in the TV industry",
+        liveSite: "",
+        used: "React.js | Node.js",
+    },
+    {
+        name: 'Coming soon... canvas thing?',
+        githubUrl: "",
+        blurb: "dunno",
+        liveSite: "",
+        used: "React.js | Node.js",
     }
 ]
 

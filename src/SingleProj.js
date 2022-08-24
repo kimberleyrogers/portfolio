@@ -3,8 +3,6 @@ import projects from './projectInfo.js'
 
 function SingleProj({proj, setProj}) {
 
-   
-
     return (
         <div>
             <h2>{projects[proj]['name']}</h2>

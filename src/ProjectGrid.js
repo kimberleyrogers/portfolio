@@ -28,12 +28,12 @@ console.log(proj)
                         <p>{projects[3]['used']}</p>
                     </div>
                     <div className="single-proj" onClick = {() => {setProj("4")}}>
-                        {/* <p>{projects[4]['name']}</p> */}
-                        {/* <p>{projects[4]['used']}</p> */}
+                        <p>{projects[4]['name']}</p>
+                        <p>{projects[4]['used']}</p>
                     </div>
                     <div className="single-proj" onClick = {() => {setProj("5")}}>
-                        {/* <p>{projects[5]['name']}</p> */}
-                        {/* <p>{projects[5]['used']}</p> */}
+                        <p>{projects[5]['name']}</p>
+                        <p>{projects[5]['used']}</p>
                     </div>
                 </div>
             </div>
