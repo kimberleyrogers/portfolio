@@ -2,6 +2,7 @@ import SingleProj from "./SingleProj";
 import projects from './projectInfo.js';
 
 
+
 function ProjectGrid({setContainerContent, proj, setProj}) {
 console.log(proj)
     // below, on click set state
