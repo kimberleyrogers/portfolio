@@ -11,12 +11,30 @@ console.log(proj)
         return (
             <div className="central-container">
                 <div className="project-grid">
-                    <div className="single-proj" onClick = {() => {setProj("0")}}>{projects[0]['name']}</div>
-                    <div className="single-proj" onClick = {() => {setProj("1")}}>{projects[1]['name']}</div>
-                    <div className="single-proj" onClick = {() => {setProj("2")}}>{projects[2]['name']}</div>
-                    <div className="single-proj" onClick = {() => {setProj("3")}}>{projects[3]['name']}</div>
-                    <div className="single-proj" onClick = {() => {setProj("4")}}>{projects[0]['name']}</div>
-                    <div className="single-proj" onClick = {() => {setProj("5")}}>{projects[0]['name']}</div>
+                    <div className="single-proj" onClick = {() => {setProj("0")}}>
+                        <p>{projects[0]['name']}</p>
+                        <p>{projects[0]['used']}</p>
+                    </div>
+                    <div className="single-proj" onClick = {() => {setProj("1")}}>
+                        <p>{projects[1]['name']}</p>
+                        <p>{projects[1]['used']}</p>
+                    </div>
+                    <div className="single-proj" onClick = {() => {setProj("2")}}>
+                        <p>{projects[2]['name']}</p>
+                        <p>{projects[2]['used']}</p>
+                    </div>
+                    <div className="single-proj" onClick = {() => {setProj("3")}}>
+                        <p>{projects[3]['name']}</p>
+                        <p>{projects[3]['used']}</p>
+                    </div>
+                    <div className="single-proj" onClick = {() => {setProj("4")}}>
+                        {/* <p>{projects[4]['name']}</p> */}
+                        {/* <p>{projects[4]['used']}</p> */}
+                    </div>
+                    <div className="single-proj" onClick = {() => {setProj("5")}}>
+                        {/* <p>{projects[5]['name']}</p> */}
+                        {/* <p>{projects[5]['used']}</p> */}
+                    </div>
                 </div>
             </div>
         )
