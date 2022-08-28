@@ -19,7 +19,7 @@ const projects = [
         blurb: "A cute little website keeping a record of all the movies watched in my friendship group's movie night. Written in Python, both front end and back end.",
         liveSite: "https://thawing-woodland-36245.herokuapp.com/",
         image: "assets/movie_night_snip.png",
-        used: "HTML | CSS | Python | Flask"
+        used: "HTML | CSS | Python | Flask | SQL"
     },
     {
         name: 'CAMPanion',
