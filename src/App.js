@@ -20,11 +20,8 @@ function App() {
         {/* eslint-disable-next-line */}
         <a href="https://github.com/kimberleyrogers" target="_blank"><h2>github</h2></a>
         {/* eslint-disable-next-line */}
-        <a href="https://www.linkedin.com/in/kimberley-rogers-melb/" target="_blank"><h2>linkedin</h2></a>
-        
-        {/* make the internal links have 'link mouse' on hover to match the above */}
-        
-        <h2 onClick={() => setIsPortfolio(false)}>contact me</h2>
+        <a href="https://www.linkedin.com/in/kimberley-rogers-melb/" target="_blank"><h2>linkedin</h2></a>  
+        <h2 onClick={() => setIsPortfolio(false)}>about</h2>
       </div>
       <div className="header">
         <h1>kimberley rogers</h1>

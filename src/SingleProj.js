@@ -10,8 +10,10 @@ function SingleProj({proj, setProj}) {
             </div>
             <div className="projBlurb"> 
                 <p>{projects[proj]['blurb']}</p>
-                <a href={projects[proj]['githubUrl']}><button>View Code</button></a>
-                <a href={projects[proj]['liveSite']}><button>Visit Site</button></a>
+                {/* eslint-disable-next-line */}
+                <a href={projects[proj]['githubUrl']} target="_blank"><button>View Code</button></a>
+                {/* eslint-disable-next-line */}
+                <a href={projects[proj]['liveSite']} target="_blank"><button>Visit Site</button></a>
             </div>
             <div className="projImages">
                 <img src={projects[proj]['image']} alt="thumbnail of project"/>

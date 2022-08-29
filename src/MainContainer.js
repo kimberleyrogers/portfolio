@@ -1,5 +1,5 @@
 import SingleProj from "./SingleProj";
-import Contact from "./Contact.js";
+import Contact from "./About.js";
 import ProjectGrid from "./ProjectGrid.js";
 import { useState } from "react";
 
