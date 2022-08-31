@@ -19,7 +19,7 @@ function About() {
             </div>
             <div>
                 <h2>melbourne based human being</h2>
-                <p>Aside from programming I love exploring Melbourne and finding tasty new food. I listen to kpop every day and once took a dance class to <a href="https://www.youtube.com/watch?v=d7ZvOX8qZlc">this song.</a> I like running, especially with friends. I go for England at football, North Melbourne at AFL and BTS in anything else.</p>
+                <p>Aside from programming I love exploring Melbourne, gawping at beautiful buildings and finding new places to eat great food. I listen to kpop every day and once took a dance class to <a href="https://www.youtube.com/watch?v=d7ZvOX8qZlc">this song.</a> I like running, especially with friends. I go for England at football, North Melbourne at AFL and BTS in everything else.</p>
                 <p>check out my <a href="https://www.linkedin.com/in/kimberley-rogers-melb/">linkedin</a> or <a href="mailto:kimberleymrogers@gmail.com">email me</a> to <span className="strike">talk celebrity gossip</span> connect</p>
             </div>
 

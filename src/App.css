@@ -8,11 +8,11 @@
   src: url("../Poppins/Poppins-ExtraBold.ttf") format("truetype");
 }
 
-/* @media only screen and (max-width: 720px) {
+@media only screen and (max-width: 720px) {
   .app {
     background-color: lightblue;
   }
-} */
+}
 
 :root {
   --orange: rgb(241, 92, 12);
@@ -35,7 +35,7 @@
 
 .nav-bar {
   grid-row: 1 / 3;
-  padding: 50px;
+  padding: 20%;
 }
 
 .nav-bar h2 {
@@ -75,19 +75,23 @@
 
 /* CSS for 'ProjectGrid.js' */
 .project-grid {
-  display: grid;
-  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+  /* display: grid; */
+  /* grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .single-proj {
   padding: 20px;
   border: 2px solid var(--white);
   margin: 10px;
-  width: 200px;
-  height: 200px;
+  /* width: 200px;
+  height: 200px; */ 
   font-size: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  flex: 1 1 200px;
 }
 
 .single-proj:hover {
