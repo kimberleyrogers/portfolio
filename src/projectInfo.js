@@ -8,7 +8,7 @@ const projects = [
     {
         name: 'CAMPanion',
         githubUrl: "https://github.com/VasiliiSikora/CAMPanion",
-        blurb: "A single page app, both front and back end written in Javascript, created by a group of three (me, Amanda Young and Will Sikora).",
+        blurb: "Single page website, for adding and reviewing campsites. Both front and back end written in Javascript, the site utilises a database. This was created by me, Amanda Young and Will Sikora.",
         liveSite: "https://camp-test-app.herokuapp.com/",
         image: "assets/campanion_snip.png",
         used: "HTML | CSS | Javascript | SQL | Node.js"
@@ -17,7 +17,7 @@ const projects = [
     {
         name: 'Movie Night',
         githubUrl: "https://github.com/kimberleyrogers/movie_night_project",
-        blurb: "A cute little website keeping a record of all the movies watched in my friendship group's movie night. Written in Python, both front end and back end.",
+        blurb: "A personal website keeping a record of movies watched in my friendship group's movie night. Written in Python, both front end and back end. Utilises an API and stores information in a database.",
         liveSite: "https://thawing-woodland-36245.herokuapp.com/",
         image: "assets/movie_night_snip.png",
         used: "HTML | CSS | Python | Flask | SQL"
@@ -37,20 +37,20 @@ const projects = [
         liveSite: "https://dashboard.heroku.com/apps/glacial-inlet-94461",
         used: "React.js | Node.js",
     },
-    {
-        name: 'Coming soon.... client portfolio',
-        githubUrl: "",
-        blurb: "React based portfolio for creative in the TV industry",
-        liveSite: "",
-        used: "React.js | Node.js",
-    },
-    {
-        name: 'Coming soon... canvas thing?',
-        githubUrl: "",
-        blurb: "dunno",
-        liveSite: "",
-        used: "React.js | Node.js",
-    }
+    // {
+    //     name: 'Coming soon.... client portfolio',
+    //     githubUrl: "",
+    //     blurb: "React based portfolio for creative in the TV industry",
+    //     liveSite: "",
+    //     used: "React.js | Node.js",
+    // },
+    // {
+    //     name: 'Coming soon... canvas thing?',
+    //     githubUrl: "",
+    //     blurb: "dunno",
+    //     liveSite: "",
+    //     used: "React.js | Node.js",
+    // }
 ]
 
 export default projects;

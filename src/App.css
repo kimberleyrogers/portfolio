@@ -8,9 +8,13 @@
   src: url("../Poppins/Poppins-ExtraBold.ttf") format("truetype");
 }
 
+/* neither are working */
 @media only screen and (max-width: 720px) {
   .app {
     background-color: lightblue;
+  }
+  .header {
+    font-size: 5pt;
   }
 }
 
@@ -26,6 +30,7 @@
   font-family: poppins-light; 
   background-color: var(--orange);
   color: var(--white);
+  padding-bottom: 500px;
 }
 
 .app a {
@@ -96,6 +101,9 @@
 
 .single-proj:hover {
   cursor: pointer;
+  color: var(--orange);
+  background-color: var(--white);
+  transition: color .5s ease-in-out; background-color: .5s ease-in-out;
 }
 
 .title {
