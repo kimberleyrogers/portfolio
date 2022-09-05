@@ -57,8 +57,12 @@
   cursor: pointer;
 }
 
-.header {
+.header h1 {
   font-size: 30pt;
+}
+
+.header a {
+  font-size: 10pt;
 }
 
 /* CSS for 'About.js' */

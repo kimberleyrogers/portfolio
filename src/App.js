@@ -16,7 +16,8 @@ function App() {
 
       <div className="nav-bar">
         <h2 onClick={() => [setIsPortfolio(true), setProj('main')]}>projects</h2>
-        <a href="hello"><h2>resume</h2></a>
+        {/* eslint-disable-next-line */}
+        <a href="images/Resume - Kimberley Rogers.pdf" target="_blank"><h2>resume</h2></a>
         {/* eslint-disable-next-line */}
         <a href="https://github.com/kimberleyrogers" target="_blank"><h2>github</h2></a>
         {/* eslint-disable-next-line */}
@@ -25,6 +26,7 @@ function App() {
       </div>
       <div className="header">
         <h1>kimberley rogers</h1>
+        <a href="mailto:kimberleymrogers@gmail.com">e: kimberleymrogers@gmail.com</a>  
       </div>
       <MainContainer isPortfolio={isPortfolio} setIsPortfolio={setIsPortfolio} proj={proj} setProj={setProj}/>
     </div>
