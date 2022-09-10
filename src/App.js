@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="app">
 
-      <div className="nav-bar">
+      <nav className="nav-bar">
         <h2 onClick={() => [setIsPortfolio(true), setProj('main')]}>projects</h2>
         {/* eslint-disable-next-line */}
         <a href="images/Resume - Kimberley Rogers.pdf" target="_blank"><h2>resume</h2></a>
@@ -23,7 +23,7 @@ function App() {
         {/* eslint-disable-next-line */}
         <a href="https://www.linkedin.com/in/kimberley-rogers-melb/" target="_blank"><h2>linkedin</h2></a>  
         <h2 onClick={() => setIsPortfolio(false)}>about</h2>
-      </div>
+      </nav>
       <div className="header">
         <h1>kimberley rogers</h1>
         <a href="mailto:kimberleymrogers@gmail.com">e: kimberleymrogers@gmail.com</a>  

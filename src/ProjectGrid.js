@@ -9,34 +9,27 @@ console.log(proj)
     
     if (proj === 'main') {
         return (
-            <div className="central-container">
-                <div className="project-grid">
-                    <div className="single-proj" onClick = {() => {setProj("0")}}>
-                        <p className="title">{projects[0]['name']}</p>
+            
+                <section id="project-grid">
+                    <div className="grid-square" onClick = {() => {setProj("0")}}>
+                        <h2 className="title">PROJECT: {projects[0]['name']}</h2>
+                        <p className="desc">{projects[0]['desc']}</p>
                         <p>{projects[0]['used']}</p>
                     </div>
-                    <div className="single-proj" onClick = {() => {setProj("1")}}>
-                        <p className="title">{projects[1]['name']}</p>
+                    <div className="grid-square" onClick = {() => {setProj("1")}}>
+                        <h2 className="title">{projects[1]['name']}</h2>
                         <p>{projects[1]['used']}</p>
                     </div>
-                    <div className="single-proj" onClick = {() => {setProj("2")}}>
-                        <p className="title">{projects[2]['name']}</p>
+                    <div className="grid-square" onClick = {() => {setProj("2")}}>
+                        <h2 className="title">{projects[2]['name']}</h2>
                         <p>{projects[2]['used']}</p>
                     </div>
-                    <div className="single-proj" onClick = {() => {setProj("3")}}>
-                        <p className="title">{projects[3]['name']}</p>
+                    <div className="grid-square" onClick = {() => {setProj("3")}}>
+                        <h2 className="title">{projects[3]['name']}</h2>
                         <p>{projects[3]['used']}</p>
                     </div>
-                    {/* <div className="single-proj" onClick = {() => {setProj("4")}}>
-                        <p className="title">{projects[4]['name']}</p>
-                        <p>{projects[4]['used']}</p>
-                    </div>
-                    <div className="single-proj" onClick = {() => {setProj("5")}}>
-                        <p className="title">{projects[5]['name']}</p>
-                        <p>{projects[5]['used']}</p>
-                    </div> */}
-                </div>
-            </div>
+                </section>
+            
         )
         } else {
             return (

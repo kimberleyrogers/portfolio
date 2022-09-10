@@ -11,7 +11,8 @@ const projects = [
         blurb: "Single page website, for adding and reviewing campsites. Both front and back end written in Javascript, the site utilises a database. This was created by me, Amanda Young and Will Sikora.",
         liveSite: "https://camp-test-app.herokuapp.com/",
         image: "assets/campanion_snip.png",
-        used: "HTML | CSS | Javascript | SQL | Node.js"
+        used: "HTML | CSS | Javascript | SQL | Node.js",
+        desc: "campsite search engine"
         
     },
     {
