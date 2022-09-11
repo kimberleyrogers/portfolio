@@ -7,9 +7,9 @@ function Menu({ isOpen, onChange }) {
 
   const links = [
     {itemText: "HOME", itemLink: "/"},
-    {itemText: "ABOUT", itemLink: "/about"},
-    {itemText: "HOME", itemLink: "/"},
-    {itemText: "ABOUT", itemLink: "/about"},
+    {itemText: "SKILLS", itemLink: "#skills-section"},
+    {itemText: "PROJECTS", itemLink: "#project-section"},
+    {itemText: "ABOUT", itemLink: "#about-section"},
 ]
   return (
     <div className={`Menu ${isOpen && "open"}`}>

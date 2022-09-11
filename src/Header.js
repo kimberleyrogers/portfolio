@@ -2,14 +2,16 @@
 export function Header() {
 
     return (
-        <div className="header">
-            <h1 id="my-name">kimberley rogers</h1>
-            <a href="mailto:kimberleymrogers@gmail.com">e: kimberleymrogers@gmail.com</a>  
-            <a><button>Linkedin</button></a>
-            <a><button>GitHub</button></a>
-            <a><button>Email Me</button></a>
-            <h6>resume?</h6>
-        </div>
+        <section id="header-section">
+            <h1 className="handwritten">kimberley rogers</h1>
+            <div id="header-btn">
+
+                <a href="https://linkedin.com/in/kimberley-rogers-melb/" target="_blank"><button>Linkedin</button></a>
+                <a href="https://github.com/kimberleyrogers" target="_blank"><button>GitHub</button></a>
+                <a href="mailto:kimberleymrogers@gmail.com" target="_blank"><button>Email Me</button></a>
+            </div>
+            {/* <h6>resume?</h6> */}
+        </section>
     )
 }
 

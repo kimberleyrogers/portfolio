@@ -1,8 +1,3 @@
-// import wordlePic from '../public/assets/wordle_snip.png';
-// import campPic from './images/campanion_snip.png';
-// import moviePic from '../public/assets/movie_night_snip.png';
-
-
 
 const projects = [
     {
@@ -13,7 +8,6 @@ const projects = [
         image: "assets/campanion_snip.png",
         used: "HTML | CSS | Javascript | SQL | Node.js",
         desc: "campsite search engine"
-        
     },
     {
         name: 'Movie Night',
@@ -41,20 +35,7 @@ const projects = [
         used: "React.js | Node.js",
         desc: "project showcase"
     },
-    // {
-    //     name: 'Coming soon.... client portfolio',
-    //     githubUrl: "",
-    //     blurb: "React based portfolio for creative in the TV industry",
-    //     liveSite: "",
-    //     used: "React.js | Node.js",
-    // },
-    // {
-    //     name: 'Coming soon... canvas thing?',
-    //     githubUrl: "",
-    //     blurb: "dunno",
-    //     liveSite: "",
-    //     used: "React.js | Node.js",
-    // }
+
 ]
 
 export default projects;

@@ -48,8 +48,8 @@ export function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<ProjectGrid />} />
           <Route path="/skills" element={<Skills />} />
+          <Route path="/projects" element={<ProjectGrid />} />
           <Route path="/about" element ={<About />} />
         </Routes>
       </BrowserRouter>
