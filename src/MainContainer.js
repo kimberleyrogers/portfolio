@@ -1,3 +1,8 @@
+// not in use for anything
+
+
+
+
 import SingleProj from "./SingleProj";
 import Contact from "./About.js";
 import ProjectGrid from "./ProjectGrid.js";

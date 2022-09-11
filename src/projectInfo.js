@@ -21,7 +21,8 @@ const projects = [
         blurb: "A personal website keeping a record of movies watched in my friendship group's movie night. Written in Python, both front end and back end. Utilises an API and stores information in a database.",
         liveSite: "https://thawing-woodland-36245.herokuapp.com/",
         image: "assets/movie_night_snip.png",
-        used: "HTML | CSS | Python | Flask | SQL"
+        used: "HTML | CSS | Python | Flask | SQL",
+        desc: "movie tracker"
     },
     {
         name: 'Wordle',
@@ -29,7 +30,8 @@ const projects = [
         blurb: "HTML, CSS and Javascript based site, a colourful recreation of the popular word game.",
         liveSite: "https://kimberleyrogers.github.io/ga-wordle/",
         image: 'assets/wordle_snip.png',
-        used: "HTML | CSS | Javascript"
+        used: "HTML | CSS | Javascript",
+        desc: "popular word game"
     },
     {
         name: 'Portfolio',
@@ -37,6 +39,7 @@ const projects = [
         blurb: "Are you sitting down? ... I made this website too. A colourful, single page React website.",
         liveSite: "https://dashboard.heroku.com/apps/glacial-inlet-94461",
         used: "React.js | Node.js",
+        desc: "project showcase"
     },
     // {
     //     name: 'Coming soon.... client portfolio',

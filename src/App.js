@@ -1,36 +1,59 @@
 import './App.css';
-import { useState } from "react";
+import { BrowserRouter, Routes, Route, useParams } from "react-router-dom";
+import { useState } from 'react';
 import MainContainer from './MainContainer';
+import Menu from "./Menu";
+import About from './About';
+import ProjectGrid from './ProjectGrid';
+import { Header } from './Header';
+import { Skills } from './Skills';
 
-function App() {
 
-  const [isPortfolio, setIsPortfolio] = useState(true);
-  const [proj, setProj] = useState('main')
-  // keep state above but have options be portfolio/contact/proj1/proj2 etc.
-  // pass as props into main section
-  // main section page has functions for them all, or returns for them all based on state
 
-  console.log(isPortfolio)
+
+export function Home() {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  // const [isPortfolio, setIsPortfolio] = useState(true);
+  // const [proj, setProj] = useState('main')
+
+
   return (
     <div className="app">
 
-      <nav className="nav-bar">
-        <h2 onClick={() => [setIsPortfolio(true), setProj('main')]}>projects</h2>
-        {/* eslint-disable-next-line */}
-        <a href="images/Resume - Kimberley Rogers.pdf" target="_blank"><h2>resume</h2></a>
-        {/* eslint-disable-next-line */}
-        <a href="https://github.com/kimberleyrogers" target="_blank"><h2>github</h2></a>
-        {/* eslint-disable-next-line */}
-        <a href="https://www.linkedin.com/in/kimberley-rogers-melb/" target="_blank"><h2>linkedin</h2></a>  
-        <h2 onClick={() => setIsPortfolio(false)}>about</h2>
-      </nav>
-      <div className="header">
-        <h1>kimberley rogers</h1>
-        <a href="mailto:kimberleymrogers@gmail.com">e: kimberleymrogers@gmail.com</a>  
-      </div>
-      <MainContainer isPortfolio={isPortfolio} setIsPortfolio={setIsPortfolio} proj={proj} setProj={setProj}/>
+    <span className="material-icons menu-btn" onClick={() => setIsOpen(true)}>
+        menu
+    </span>
+      
+      <Menu isOpen={isOpen} onChange={setIsOpen}></Menu>
+      <Header />
+      <Skills />
+      {/* <MainContainer isPortfolio={isPortfolio} setIsPortfolio={setIsPortfolio} proj={proj} setProj={setProj}/> */}
+      <ProjectGrid />
+      <About />
     </div>
   );
 }
 
-export default App;
+
+
+
+
+export function App() {
+
+  return (
+
+    <div className="main-app">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<ProjectGrid />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/about" element ={<About />} />
+        </Routes>
+      </BrowserRouter>
+
+    </div>
+  );
+}
