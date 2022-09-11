@@ -6,10 +6,10 @@ import "./Menu.css"
 function Menu({ isOpen, onChange }) {
 
   const links = [
-    {itemText: "HOME", itemLink: "/"},
-    {itemText: "SKILLS", itemLink: "#skills-section"},
-    {itemText: "PROJECTS", itemLink: "#project-section"},
-    {itemText: "ABOUT", itemLink: "#about-section"},
+    {itemText: "home", itemLink: "/"},
+    {itemText: "skills", itemLink: "#skills-section"},
+    {itemText: "projects", itemLink: "#project-section"},
+    {itemText: "about", itemLink: "#about-section"},
 ]
   return (
     <div className={`Menu ${isOpen && "open"}`}>

@@ -15,6 +15,7 @@
   }
 
 .Menu {
+    font-family: poppins-light;
     position: fixed;
     display: grid;
     place-items: center;
@@ -70,6 +71,9 @@
 .menu-btn {
     font-size: 0.5rem;
     padding: 0.5rem;
+    position: fixed;
+    background-color: var(--orange);
+    width: 100%;
 }
 
 
