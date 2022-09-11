@@ -1,7 +1,9 @@
 import React from "react";
 import { App } from "./App";
-// import { items } from "./MenuItems";
 import "./Menu.css"
+
+// CREDIT: This Menu feature is from this tutorial: https://www.youtube.com/watch?v=hANR2XbB9co
+// Thank you DevLHB
 
 function Menu({ isOpen, onChange }) {
 

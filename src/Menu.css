@@ -7,12 +7,15 @@
 @font-face {
     font-family: "poppins-light";
     src: url("../Poppins/Poppins-Light.ttf") format("truetype");
-  }
+}
   
-  @font-face {
+@font-face {
     font-family: "poppins-heavy";
     src: url("../Poppins/Poppins-ExtraBold.ttf") format("truetype");
-  }
+}
+
+/* CREDIT: This Menu feature is from this tutorial: https://www.youtube.com/watch?v=hANR2XbB9co */
+/* Thank you DevLHB */
 
 .Menu {
     font-family: poppins-light;

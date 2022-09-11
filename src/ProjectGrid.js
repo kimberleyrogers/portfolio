@@ -10,7 +10,7 @@ function ProjectGrid() {
         return (
             
                 <section id="project-section">
-                    <h2>projects</h2>
+                    <h2>my projects</h2>
                     <div id="project-grid">
                         {projects.map((project, index) => {
 
