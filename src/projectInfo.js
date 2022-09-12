@@ -35,6 +35,22 @@ const projects = [
         used: "React.js | Node.js",
         desc: "project showcase"
     },
+    {
+        name: 'Portfolio',
+        githubUrl: "https://github.com/kimberleyrogers/portfolio",
+        blurb: "Are you sitting down? ... I made this website too. A colourful, single page React website.",
+        liveSite: "https://dashboard.heroku.com/apps/glacial-inlet-94461",
+        used: "React.js | Node.js",
+        desc: "project showcase"
+    },
+    {
+        name: 'Portfolio',
+        githubUrl: "https://github.com/kimberleyrogers/portfolio",
+        blurb: "Are you sitting down? ... I made this website too. A colourful, single page React website.",
+        liveSite: "https://dashboard.heroku.com/apps/glacial-inlet-94461",
+        used: "React.js | Node.js",
+        desc: "project showcase"
+    },
 
 ]
 

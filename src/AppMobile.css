@@ -58,7 +58,6 @@
 
   .grid-square {
     padding: .2rem;
-    text-align: ;
     border: 2px solid var(--white);
     margin: .1rem;
     /* width: 25%; */
@@ -94,7 +93,6 @@
 
   .about-me p {
     text-align: justify;
-
   }
 
   #singleProjContainer {
@@ -150,9 +148,7 @@
 }
 
 /* should apply to everything! */
-nav h2 {
-  font-size: .6rem;
-}
+
 
 /* .header h1 {
   font-size: 1rem;
@@ -162,18 +158,14 @@ nav h2 {
   font-size: .4rem;
 }
 
-.strike {
-  text-decoration: line-through;
-}
+
 
 .desc {
   font-size: .3rem;
 }
 
 
-.app a {
-  color: var(--white);
-}
+
 
 
 

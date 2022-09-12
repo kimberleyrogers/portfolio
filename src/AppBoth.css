@@ -31,6 +31,10 @@
 font-family: heading;
 }
 
+.strike {
+    text-decoration: line-through;
+}
+
 button {
     background-color: var(--white);
     color: var(--orange);
@@ -40,4 +44,12 @@ button {
     /* margin: 10px; */
     cursor: pointer;
     border: 5px solid white;
-  }
+}
+
+nav h2 {
+    font-size: .6rem;
+}
+
+.app a {
+    color: var(--white);
+}
