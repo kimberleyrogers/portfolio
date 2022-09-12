@@ -1,5 +1,5 @@
-import SingleProj from "./SingleProj";
-import projects from './projectInfo.js';
+import SingleProj, { ComingSoonProj } from "./SingleProj";
+import { projects, comingSoon } from './projectInfo.js';
 
 
 
@@ -15,9 +15,16 @@ function ProjectGrid() {
                         {projects.map((project, index) => {
 
                             return (
-                                <SingleProj index={index} />
+                                <SingleProj index={index} projects={projects}/>
                             )
                         })}
+                        {comingSoon.map((soon, index) => {
+
+                            return (
+                                <ComingSoonProj index={index} projects={comingSoon}/>
+                            )
+                        })}
+
                     </div>
                 </section>
 

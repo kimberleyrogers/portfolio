@@ -1,5 +1,5 @@
 
-const projects = [
+export const projects = [
     {
         name: 'CAMPanion',
         githubUrl: "https://github.com/VasiliiSikora/CAMPanion",
@@ -35,7 +35,12 @@ const projects = [
         image: "https://generative-placeholders.glitch.me/image?width=600&height=300",
         used: "React.js | Node.js",
         desc: "project showcase"
-    },
+    }
+   
+
+]
+
+export const comingSoon = [
     {
         name: '*coming soon* TV Portfolio',
         githubUrl: "",
@@ -53,8 +58,8 @@ const projects = [
         image: "https://generative-placeholders.glitch.me/image?width=600&height=300",
         used: "React.js | Node.js",
         desc: "coming soon"
-    },
+    }
 
 ]
 
-export default projects;
+// export default projects;
