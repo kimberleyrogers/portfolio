@@ -3,7 +3,7 @@ export function Header() {
 
     return (
         <section id="header-section">
-            <h1 className="handwritten">kimberley rogers</h1>
+            <h1 className="handwritten page-title">kimberley rogers</h1>
             <div id="header-btn">
 
                 <a href="https://linkedin.com/in/kimberley-rogers-melb/" target="_blank"><button>Linkedin</button></a>
