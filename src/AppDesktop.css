@@ -1,0 +1,71 @@
+@media only screen and (min-width: 721px) {
+
+    .app a:hover {
+        cursor: pointer;
+    }
+    
+    nav a {
+        color: var(--white);
+        text-decoration: none;
+        /* font-size: .5rem; */
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 3rem;
+        padding: 0.6rem 0.2rem;
+      }
+
+
+
+    h2 {
+        font-size: 1rem;
+        padding: 0 0 0 0.3rem;
+    }
+    
+    #skills-flex {
+        font-size: 0.4rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: .2rem;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    #skills-flex p {
+        padding: 0.4rem;
+        font-size: 0.6rem;
+        height: 100%;
+        box-shadow: inset 0 0 0 0 #ffffff;
+        color: var(--white);
+        transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    }
+
+    #skills-flex p:hover {
+        box-shadow: inset 120px 0 0 0 #ffffff;
+        color: var(--orange);
+    }
+    
+    #header-btn {
+        /* align-items: center; */
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+    
+      #project-grid {
+        /* display: flex;
+        flex-wrap: wrap;
+        justify-content: center; */    
+        display: grid;
+        grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+      }
+      #project-title {
+        /* grid-column: 1 / 3; */
+        font-size: 0.6rem;
+        text-align: center;
+    
+      }
+    }
+
+

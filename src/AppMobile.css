@@ -1,31 +1,9 @@
-@font-face {
-  font-family: "poppins-light";
-  src: url("../Poppins/Poppins-Light.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "poppins-heavy";
-  src: url("../Poppins/Poppins-ExtraBold.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "heading";
-  src: url("../Patrick_Hand_SC/PatrickHandSC-Regular.ttf") format("truetype");
-}
-
-:root {
-  --orange: rgb(241, 92, 12);
-  --white: #ffffff;
-  max-width: 100%;
-}
 
 @media only screen and (max-width: 720px) {
-  .app {
-    background-color: var(--orange);
-    display: grid;
-    grid-template-rows: repeat(6, auto);
-    color: var(--white);
-    /* max-width: 100%; */
+  #header-btn {
+    /* align-items: center; */
+    display: flex;
+    justify-content: space-around;
   }
 
   h1 {
@@ -43,8 +21,10 @@
     font-size: 0.5rem;
   }
 
-  .handwritten {
-    font-family: heading;
+ 
+
+  .section-title {
+    padding: 1.1rem 0 0 0.5rem;
   }
 
   #skills-flex {
@@ -60,14 +40,7 @@
     padding: 0 0.4rem;
   }
 
-  #header-btn {
-    /* align-items: center; */
-    display: flex;
-    justify-content: space-around;
-  }
-
-
-
+  
 
   #project-grid {
     /* display: flex;
@@ -202,34 +175,15 @@ nav h2 {
   color: var(--white);
 }
 
-button {
-  background-color: var(--white);
-  color: var(--orange);
-  font-weight: bold;
-  padding: 10px 20px;
-  border-radius: 5px;
-  /* margin: 10px; */
-  cursor: pointer;
-  border: 5px solid white;
-}
 
 
 
-@media only screen and (min-width: 721px) {
-  .app {
-    background-color: palegreen;
-  }
 
-  .app a:hover {
-    cursor: pointer;
-  }
 
-  nav a {
-    color: var(--white);
-    text-decoration: none;
-    /* font-size: .5rem; */
-  }
-}
+  
+
+  
+  
   
 /* CSS for 'App.js' */
 /* .app {

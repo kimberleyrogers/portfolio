@@ -2,7 +2,7 @@ export function Skills() {
     
     return (
         <section id="skills-section">
-            <h2>my skills</h2>
+            <h2 className="section-title">my skills</h2>
             <div id="skills-flex">
                     <p>HTML</p>
                     <p>CSS</p>

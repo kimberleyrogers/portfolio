@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "poppins-light";
+    src: url("../Poppins/Poppins-Light.ttf") format("truetype");
+}
+  
+@font-face {
+    font-family: "poppins-heavy";
+    src: url("../Poppins/Poppins-ExtraBold.ttf") format("truetype");
+}
+  
+@font-face {
+    font-family: "heading";
+    src: url("../Patrick_Hand_SC/PatrickHandSC-Regular.ttf") format("truetype");
+}
+
+:root {
+    --orange: rgb(241, 92, 12);
+    --white: #ffffff;
+    max-width: 100%;
+}
+
+.app {
+    background-color: var(--orange);
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+    color: var(--white);
+    /* max-width: 100%; */
+}
+
+.handwritten {
+font-family: heading;
+}
+
+button {
+    background-color: var(--white);
+    color: var(--orange);
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    /* margin: 10px; */
+    cursor: pointer;
+    border: 5px solid white;
+  }

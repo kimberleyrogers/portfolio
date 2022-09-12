@@ -1,4 +1,6 @@
-import './App.css';
+import './AppMobile.css';
+import './AppDesktop.css';
+import './AppBoth.css';
 import { BrowserRouter, Routes, Route, useParams } from "react-router-dom";
 import { useState } from 'react';
 import MainContainer from './MainContainer';
@@ -23,7 +25,7 @@ export function Home() {
     <div className="app">
 
     <span className="material-icons menu-btn" onClick={() => setIsOpen(true)}>
-        menu
+      menu
     </span>
       
       <Menu isOpen={isOpen} onChange={setIsOpen}></Menu>
