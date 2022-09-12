@@ -7,16 +7,16 @@ import projects from './projectInfo.js'
 function SingleProj({ index }) {
 
     return (
-        <div className='singleProjContainer grid-square'>
+        <div className='singleProjContainer proj-square'>
             {/* this indents a bit - why? */}
-            <h2 className="title">{projects[index]['name']}
+            <h2 className="projTitle">{projects[index]['name']}</h2>
             {/* blurb and desc can be one thing in projinfo */}
-            <span className="desc"> - {projects[index]['desc']}</span></h2>
-            <p>{projects[index]['used']}</p>
+            <h3 className="projSubTitle">{projects[index]['desc']}</h3>
+            <p className="projTech">{projects[index]['used']}</p>
             <div className="projImage">
                 <img src={projects[index]['image']} alt="thumbnail of project"/>
             </div>
-            <p className="desc">{projects[index]['blurb']}</p>
+            <p className="projDesc">{projects[index]['blurb']}</p>
             <div className='projButtons'>
                 {/* eslint-disable-next-line */}
                 <a href={projects[index]['githubUrl']} target="_blank"><button>View Code</button></a>
