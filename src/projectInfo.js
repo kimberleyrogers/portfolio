@@ -30,26 +30,29 @@ const projects = [
     {
         name: 'Portfolio',
         githubUrl: "https://github.com/kimberleyrogers/portfolio",
-        blurb: "Are you sitting down? ... I made this website too. A colourful, single page React website.",
+        blurb: "Are you sitting down? ... I made this website too. A clean and colourful, single page React website.",
         liveSite: "https://dashboard.heroku.com/apps/glacial-inlet-94461",
+        image: "https://generative-placeholders.glitch.me/image?width=600&height=300",
         used: "React.js | Node.js",
         desc: "project showcase"
     },
     {
-        name: 'Portfolio',
-        githubUrl: "https://github.com/kimberleyrogers/portfolio",
-        blurb: "Are you sitting down? ... I made this website too. A colourful, single page React website.",
-        liveSite: "https://dashboard.heroku.com/apps/glacial-inlet-94461",
+        name: '*coming soon* TV Portfolio',
+        githubUrl: "",
+        blurb: "Portfolio for a creative in the TV industry, showcasing credits, embedding video.",
+        liveSite: "",
+        image: "https://generative-placeholders.glitch.me/image?width=600&height=300",
         used: "React.js | Node.js",
         desc: "project showcase"
     },
     {
-        name: 'Portfolio',
+        name: '*coming soon* ',
         githubUrl: "https://github.com/kimberleyrogers/portfolio",
-        blurb: "Are you sitting down? ... I made this website too. A colourful, single page React website.",
-        liveSite: "https://dashboard.heroku.com/apps/glacial-inlet-94461",
+        blurb: "coming soon",
+        liveSite: "",
+        image: "https://generative-placeholders.glitch.me/image?width=600&height=300",
         used: "React.js | Node.js",
-        desc: "project showcase"
+        desc: "coming soon"
     },
 
 ]
