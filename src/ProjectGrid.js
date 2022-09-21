@@ -18,12 +18,12 @@ function ProjectGrid() {
                                 <SingleProj index={index} projects={projects}/>
                             )
                         })}
-                        {comingSoon.map((soon, index) => {
+                        {/* {comingSoon.map((soon, index) => {
 
                             return (
                                 <ComingSoonProj index={index} projects={comingSoon}/>
                             )
-                        })}
+                        })} */}
 
                     </div>
                 </section>

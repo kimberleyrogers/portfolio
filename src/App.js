@@ -30,10 +30,10 @@ export function Home() {
       
       <Menu isOpen={isOpen} onChange={setIsOpen}></Menu>
       <Header />
+      <About />
       <Skills />
       {/* <MainContainer isPortfolio={isPortfolio} setIsPortfolio={setIsPortfolio} proj={proj} setProj={setProj}/> */}
       <ProjectGrid />
-      <About />
     </div>
   );
 }
