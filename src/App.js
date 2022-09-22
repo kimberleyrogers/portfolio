@@ -9,6 +9,7 @@ import About from './About';
 import ProjectGrid from './ProjectGrid';
 import { Header } from './Header';
 import { Skills } from './Skills';
+import Hamburger from 'hamburger-react';
 
 
 
@@ -16,6 +17,7 @@ import { Skills } from './Skills';
 export function Home() {
 
   const [isOpen, setIsOpen] = useState(false);
+  const [burgerOpen, setBurgerOpen] = useState(false);
 
   // const [isPortfolio, setIsPortfolio] = useState(true);
   // const [proj, setProj] = useState('main')
@@ -25,10 +27,13 @@ export function Home() {
     <div className="app">
 
     <span className="material-icons menu-btn" onClick={() => setIsOpen(true)}>
-      menu
-    </span>
+      <div className="burger"></div>
+      <div className="burger"></div>
+      <div className="burger"></div>
+    </span> 
+    
       
-      <Menu isOpen={isOpen} onChange={setIsOpen}></Menu>
+      <Menu isOpen={isOpen} onChange={setIsOpen} setBurgerOpen={setBurgerOpen}></Menu>
       <Header />
       <About />
       <Skills />

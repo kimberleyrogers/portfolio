@@ -17,6 +17,13 @@
 /* CREDIT: This Menu feature is from this tutorial: https://www.youtube.com/watch?v=hANR2XbB9co */
 /* Thank you DevLHB */
 
+.burger {
+    width: 35px;
+    height: 5px;
+    background-color: var(--white);
+    margin: 6px 0;
+  }
+
 .Menu {
     font-family: poppins-light;
     position: fixed;
@@ -52,7 +59,7 @@
 }
 
 .Menu > .Menu-items > a {
-    color: #ffffff;
+    color: var(--white);
     font-size: 0.6rem;
     font-weight: bolder;
     text-decoration: none;
@@ -78,6 +85,7 @@
     position: fixed;
     background-color: var(--orange);
     width: 100%;
+    /* z-index: 2; */
 }
 
 

@@ -60,3 +60,7 @@ nav h2 {
     color: var(--white);
 }
 
+.section-title {
+    margin-top: 80px;
+}
+
