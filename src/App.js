@@ -3,13 +3,11 @@ import './AppDesktop.css';
 import './AppBoth.css';
 import { BrowserRouter, Routes, Route, useParams } from "react-router-dom";
 import { useState } from 'react';
-import MainContainer from './MainContainer';
 import Menu from "./Menu";
 import About from './About';
 import ProjectGrid from './ProjectGrid';
 import { Header } from './Header';
 import { Skills } from './Skills';
-import Hamburger from 'hamburger-react';
 
 
 
@@ -17,27 +15,20 @@ import Hamburger from 'hamburger-react';
 export function Home() {
 
   const [isOpen, setIsOpen] = useState(false);
-  const [burgerOpen, setBurgerOpen] = useState(false);
-
-  // const [isPortfolio, setIsPortfolio] = useState(true);
-  // const [proj, setProj] = useState('main')
 
 
   return (
     <div className="app">
 
-    <span className="material-icons menu-btn" onClick={() => setIsOpen(true)}>
-      <div className="burger"></div>
-      <div className="burger"></div>
-      <div className="burger"></div>
-    </span> 
-    
-      
-      <Menu isOpen={isOpen} onChange={setIsOpen} setBurgerOpen={setBurgerOpen}></Menu>
+      <span className="material-icons menu-btn" onClick={() => setIsOpen(true)}>
+        <div className="burger"></div>
+        <div className="burger"></div>
+        <div className="burger"></div>
+      </span> 
+      <Menu isOpen={isOpen} onChange={setIsOpen}></Menu>
       <Header />
       <About />
       <Skills />
-      {/* <MainContainer isPortfolio={isPortfolio} setIsPortfolio={setIsPortfolio} proj={proj} setProj={setProj}/> */}
       <ProjectGrid />
     </div>
   );

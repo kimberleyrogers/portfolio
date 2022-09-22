@@ -1,5 +1,6 @@
 @media only screen and (min-width: 721px) {
 
+   
     .app a:hover {
         cursor: pointer;
     }
@@ -10,22 +11,19 @@
         /* font-size: .5rem; */
     }
 
-    h1 {
-        text-align: center;
-        font-size: 3rem;
-        /* padding: 0.6rem 0.2rem; */
-    }
-
-    h2 {
-        font-size: 1rem;
-        padding: 0 0 0 0.3rem;
-    }
 
     h3 {
         font-size: 0.7rem;
     }
 
+    .section-title {
+        font-size: 1rem;
+        padding: 0 0 0 1rem;
+    }
+
     .page-title { 
+        text-align: center;
+        font-size: 3rem;
         transition: all .5s ease-in-out; 
     }
         
@@ -111,9 +109,6 @@
         font-size: 0.4rem;
     }
 
-    .projImage {
-        /* text-align: center;     */
-    }
     .projImage img {
         width: 80%;
         align-items: center;  

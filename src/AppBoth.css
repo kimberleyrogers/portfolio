@@ -24,13 +24,15 @@
     max-width: 100%;
 }
 
-.app {
+.main-app {
     background-color: var(--orange);
+}
+
+.app {
     display: grid;
     grid-template-rows: repeat(6, auto);
     color: var(--white);
     font-family: poppins-light;
-    /* max-width: 100%; */
 }
 
 .handwritten {

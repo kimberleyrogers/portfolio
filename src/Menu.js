@@ -5,7 +5,7 @@ import "./Menu.css"
 // CREDIT: This Menu feature is from this tutorial: https://www.youtube.com/watch?v=hANR2XbB9co
 // Thank you DevLHB
 
-function Menu({ isOpen, onChange, setBurgerOpen }) {
+function Menu({ isOpen, onChange }) {
 
   const links = [
     {itemText: "home", itemLink: "/"},
