@@ -30,7 +30,7 @@ export const projects = [
     {
         name: 'Portfolio',
         githubUrl: "https://github.com/kimberleyrogers/portfolio",
-        blurb: "Are you sitting down? ... I made this website too. A clean and colourful, single page React website.",
+        blurb: "Are you sitting down? I made this website too. A clean and colourful, single page React website.",
         liveSite: "https://dashboard.heroku.com/apps/glacial-inlet-94461",
         image: "https://generative-placeholders.glitch.me/image?width=600&height=300",
         used: "React.js | Node.js",

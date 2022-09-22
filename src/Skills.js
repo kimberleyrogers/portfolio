@@ -12,6 +12,8 @@ export function Skills() {
                     <p>Python</p>
                     <p>Node.js</p>
                     <p>Express</p>
+                    <p>RESTful APIs</p>
+                    <p>SOAP APIs</p>
             </div>
         </section>
     )
