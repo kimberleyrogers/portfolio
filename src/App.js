@@ -9,6 +9,15 @@ import ProjectGrid from './ProjectGrid';
 import { Header } from './Header';
 import { Skills } from './Skills';
 
+// to do
+// make paragraph text on projects bigger for mobile
+// picture for portfolio proj
+// footer - copyright
+// resume?
+// about me snappier
+// in projects grid - the img box should be the same size for all - centre image
+// same for buttons?
+
 
 
 
@@ -30,6 +39,7 @@ export function Home() {
       <About />
       <Skills />
       <ProjectGrid />
+      <footer>Kimberley Rogers (2022)</footer>
     </div>
   );
 }

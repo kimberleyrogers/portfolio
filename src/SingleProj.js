@@ -16,6 +16,7 @@ function SingleProj({ index, projects }) {
             <div className="projImage">
                 <img src={projects[index]['image']} alt="thumbnail of project"/>
             </div>
+            {/* <iframe src={projects[index]['liveSite']} title="description" ></iframe> */}
             <p className="projDesc">{projects[index]['blurb']}</p>
             <div className='projButtons'>
                 {/* eslint-disable-next-line */}

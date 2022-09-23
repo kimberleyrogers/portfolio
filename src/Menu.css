@@ -50,6 +50,7 @@
     top: 15px;
     cursor: pointer;
     color: #ffffff;
+    font-weight: bolder;
 }
 
 .Menu > .Menu-items {

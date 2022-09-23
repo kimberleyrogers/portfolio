@@ -5,7 +5,7 @@ export const projects = [
         githubUrl: "https://github.com/VasiliiSikora/CAMPanion",
         blurb: "Single page website, for adding and reviewing campsites. Both front and back end written in Javascript, the site utilises a database. This was created by me, Amanda Young and Will Sikora.",
         liveSite: "https://camp-test-app.herokuapp.com/",
-        image: "assets/campanion_snip.png",
+        image: "src/images/campanion-image.png",
         used: "HTML | CSS | Javascript | SQL | Node.js",
         desc: "campsite search engine"
     },
@@ -14,7 +14,7 @@ export const projects = [
         githubUrl: "https://github.com/kimberleyrogers/movie_night_project",
         blurb: "A personal website keeping a record of movies watched in my friendship group's movie night. Written in Python, both front end and back end. Utilises an API and stores information in a database.",
         liveSite: "https://thawing-woodland-36245.herokuapp.com/",
-        image: "assets/movie_night_snip.png",
+        image: "/Users/kimberleyrogers/Desktop/Projects/Portfolio/portfolio/src/images/movienight-image.png",
         used: "HTML | CSS | Python | Flask | SQL",
         desc: "movie tracker"
     },
@@ -32,7 +32,7 @@ export const projects = [
         githubUrl: "https://github.com/kimberleyrogers/portfolio",
         blurb: "Are you sitting down? I made this website too. A clean and colourful, single page React website.",
         liveSite: "https://dashboard.heroku.com/apps/glacial-inlet-94461",
-        image: "https://generative-placeholders.glitch.me/image?width=600&height=300",
+        image: "assets/portfolio-image.png",
         used: "React.js | Node.js",
         desc: "project showcase"
     }
