@@ -8,8 +8,9 @@ export function Skills() {
                     <p>CSS</p>
                     <p>Javscript</p>
                     <p>React.js</p>
-                    <p>PSQL</p>
+                    <p>PostgreSQL</p>
                     <p>Python</p>
+                    <p>Jinja</p>
                     <p>Node.js</p>
                     <p>Express</p>
                     <p>RESTful APIs</p>

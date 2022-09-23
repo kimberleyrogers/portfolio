@@ -11,8 +11,6 @@ import { Skills } from './Skills';
 
 // to do
 // make paragraph text on projects bigger for mobile
-// picture for portfolio proj
-// footer - copyright
 // resume?
 // about me snappier
 // in projects grid - the img box should be the same size for all - centre image
@@ -37,8 +35,8 @@ export function Home() {
       <Menu isOpen={isOpen} onChange={setIsOpen}></Menu>
       <Header />
       <About />
-      <Skills />
       <ProjectGrid />
+      <Skills />
       <footer>Kimberley Rogers (2022)</footer>
     </div>
   );

@@ -72,3 +72,6 @@ footer {
     padding: 0.5rem 0.5rem;
 }
 
+.projImage > img{
+    border-radius: 15px;
+}

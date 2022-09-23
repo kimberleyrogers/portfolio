@@ -3,36 +3,36 @@ export const projects = [
     {
         name: 'CAMPanion',
         githubUrl: "https://github.com/VasiliiSikora/CAMPanion",
-        blurb: "Single page website, for adding and reviewing campsites. Both front and back end written in Javascript, the site utilises a database. This was created by me, Amanda Young and Will Sikora.",
+        blurb: "Deployed full stack CRUD single page website, front end written in Javascript, HTML and CSS and the back end created with Express, using a postgreSQL database. A group project created over 2 weeks to review and add campsites created by me, Amanda Young and Will Sikora.",
         liveSite: "https://camp-test-app.herokuapp.com/",
-        image: "src/images/campanion-image.png",
-        used: "HTML | CSS | Javascript | SQL | Node.js",
+        image: "assets/campanion-image.png",
+        used: "Javascript | PostgreSQL | Node.js | Express | HTML | CSS",
         desc: "campsite search engine"
     },
     {
         name: 'Movie Night',
         githubUrl: "https://github.com/kimberleyrogers/movie_night_project",
-        blurb: "A personal website keeping a record of movies watched in my friendship group's movie night. Written in Python, both front end and back end. Utilises an API and stores information in a database.",
+        blurb: "Deployed full stack CRUD website built with Python, Flask, Jinja, HTML, CSS, postgreSQL and utilising a RESTful movie website API. A solo project, showcasing the movies watched by a group of friends over 5 years.",
         liveSite: "https://thawing-woodland-36245.herokuapp.com/",
-        image: "/Users/kimberleyrogers/Desktop/Projects/Portfolio/portfolio/src/images/movienight-image.png",
-        used: "HTML | CSS | Python | Flask | SQL",
+        image: "assets/movienight-image.png",
+        used: "Python | Flask | Jinja | Restful API | PostgreSQL | HTML | CSS",
         desc: "movie tracker"
     },
     {
         name: 'Wordle',
         githubUrl: "https://github.com/kimberleyrogers/ga-wordle",
-        blurb: "HTML, CSS and Javascript based site, a colourful recreation of the popular word game.",
+        blurb: "HTML, CSS and Vanilla Javascript front end solo project, a colourful recreation of the popular word game.",
         liveSite: "https://kimberleyrogers.github.io/ga-wordle/",
         image: 'assets/wordle_snip.png',
-        used: "HTML | CSS | Javascript",
+        used: "HTML | CSS | Vanilla Javascript",
         desc: "popular word game"
     },
     {
         name: 'Portfolio',
         githubUrl: "https://github.com/kimberleyrogers/portfolio",
-        blurb: "Are you sitting down? I made this website too. A clean and colourful, single page React website.",
+        blurb: "Are you sitting down? I made this website too. React.js based one page website, deployed to heroku, showcasing my bio, projects and skills. Very orange.",
         liveSite: "https://dashboard.heroku.com/apps/glacial-inlet-94461",
-        image: "assets/portfolio-image.png",
+        image: "assets/portfolio-image2.png",
         used: "React.js | Node.js",
         desc: "project showcase"
     }
