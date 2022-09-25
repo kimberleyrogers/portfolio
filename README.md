@@ -1,4 +1,4 @@
-![title](images/title.jpeg)
+![title](./public/assets/portfolio-image2.png)
 
 ## 🔠 ABOUT
 
