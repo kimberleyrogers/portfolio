@@ -4,8 +4,6 @@ export function Skills() {
         <section id="skills-section">
             <h2 className="section-title">skills</h2>
             <div id="skills-flex">
-                    <p>HTML</p>
-                    <p>CSS</p>
                     <p>Javscript</p>
                     <p>React.js</p>
                     <p>PostgreSQL</p>
@@ -15,6 +13,8 @@ export function Skills() {
                     <p>Express</p>
                     <p>RESTful APIs</p>
                     <p>SOAP APIs</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
             </div>
         </section>
     )

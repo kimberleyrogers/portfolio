@@ -10,11 +10,14 @@ import { Header } from './Header';
 import { Skills } from './Skills';
 
 // to do
-// make paragraph text on projects bigger for mobile
 // resume?
 // about me snappier
 // in projects grid - the img box should be the same size for all - centre image
 // same for buttons?
+// less orange button - in header, like dark mode
+// desktop, text enlarge is a touch too big
+// main buttons on desktop could do something CSS-y
+// links in body could do the css adjust thing
 
 
 
@@ -37,6 +40,7 @@ export function Home() {
       <About />
       <ProjectGrid />
       <Skills />
+      {/* <img src="https://ghchart.rshah.org/kimberleyrogers" alt="Kimberley's Github chart" /> */}
       <footer>Kimberley Rogers (2022)</footer>
     </div>
   );
