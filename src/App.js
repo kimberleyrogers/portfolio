@@ -10,17 +10,7 @@ import { Header } from './Header';
 import { Skills } from './Skills';
 
 // to do
-// resume?
 // about me snappier
-// in projects grid - the img box should be the same size for all - centre image
-// same for buttons?
-// less orange button - in header, like dark mode
-// main buttons on desktop could do something CSS-y
-// links in body could do the css adjust thing
-// buttons in header, make them even sized, when they wrap, less margin on bottom on,
-
-
-
 
 export function Home() {
 

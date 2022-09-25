@@ -21,8 +21,14 @@ I used Grid and Flexbox to create a responsive site that looks good on both mobi
 + videos to show the projects in action, to best capture the attention of anyone visiting
 + 'less orange' button, similar to 'dark mode'
 + reorganise CSS into one file, and reduce duplication
++ add more CSS to the main buttons, so they enlarge for example
++ when you click on each project, view larger picture/video in modal
++ links throughout should have added CSS to show the user they mean something
+
 
 ## 🪳 BUGS
 
 + buttons at the top of the page aren't uniform
 + the project boxes aren't uniform, would like the buttons, description etc. to sit evenly across all project boxes
+
+
