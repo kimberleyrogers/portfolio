@@ -9,16 +9,16 @@ function About() {
             <div className="about-me">
                 <div>
                     <h3 className="handwritten">melbourne based software engineer</h3>
-                
-                    <p>I'm Kim. I began to code and learn about computer science in early 2020, thanks to <a href="https://cs50.harvard.edu/x/2022/">CS50</a>.</p>
+                    {/* eslint-disable-next-line */}
+                    <p>I'm Kim. I began to code and learn about computer science in early 2020, thanks to <a href="https://cs50.harvard.edu/x/2022/" target="_blank">CS50</a>.</p>
                     <p>Whilst working full time in education, I graduated in August 2022 from General Assembly's Software Engineering Immersive course. I created this portfolio in React.js to showcase the projects I've been working on, throughout the course and since.</p>
-                    <p>I have the following projects in the pipeline to continue learning:</p>
-                        <ul>
-                            <li>an interactive dashboard with AFL player stats (Python | React.js)</li>
-                            <li>a portfolio for a creative in the TV industry (React.js)</li>
-                            {/* eslint-disable-next-line */}
-                            <li>an interactive page allowing you to follow the relationships, connections and rumours of your favourite celebrities. If <a href="https://www.laineygossip.com/" target="_blank">Lainey Gossip</a> had an API, I'd be there already (React.js)</li>
-                        </ul>
+                    <p>I'm pivoting my career in vocational education to a career as a software engineer, with a love for working in teams and problem solving guiding me through the move.
+                    I bask in the talents of my teammates, letting them know how great they are and leading with empathy, encouragement and good humour. Solving problems is my safe space and my curious nature helps me to find solutions and build user friendly processes.</p>
+                    <p>My dream job is doing these things together; team work, problem solving, building new things.</p>
+                    {/* eslint-disable-next-line */}
+                    <a href="https://drive.google.com/file/d/1NxtMqLwFXU9YYYkybumtjfPjBqEpRXb5/view?usp=sharing" target="_blank">Take a look at my resume here</a>
+
+
                 </div>
                 <div>
                     <h3 className="handwritten">melbourne based human being</h3>

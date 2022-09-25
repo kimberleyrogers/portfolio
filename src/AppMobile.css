@@ -1,10 +1,10 @@
 
 @media only screen and (max-width: 720px) {
-  #header-btn {
+  /* #header-btn { */
     /* align-items: center; */
-    display: flex;
-    justify-content: space-around;
-  }
+    /* display: flex; */
+    /* justify-content: space-around; */
+  /* } */
 
   .page-title {
     text-align: center;

@@ -1,7 +1,7 @@
 import './AppMobile.css';
 import './AppDesktop.css';
 import './AppBoth.css';
-import { BrowserRouter, Routes, Route, useParams } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from 'react';
 import Menu from "./Menu";
 import About from './About';
@@ -15,9 +15,9 @@ import { Skills } from './Skills';
 // in projects grid - the img box should be the same size for all - centre image
 // same for buttons?
 // less orange button - in header, like dark mode
-// desktop, text enlarge is a touch too big
 // main buttons on desktop could do something CSS-y
 // links in body could do the css adjust thing
+// buttons in header, make them even sized, when they wrap, less margin on bottom on,
 
 
 

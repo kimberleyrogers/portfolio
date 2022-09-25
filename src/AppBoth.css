@@ -54,6 +54,14 @@ button {
     border: 5px solid white;
 }
 
+#header-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.1rem;
+}
+
+
 nav h2 {
     font-size: .6rem;
 }
