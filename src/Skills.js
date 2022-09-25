@@ -4,15 +4,15 @@ export function Skills() {
         <section id="skills-section">
             <h2 className="section-title">skills</h2>
             <div id="skills-flex">
-                    <p>Javscript</p>
-                    <p>React.js</p>
+                    <p>Javascript</p>
+                    <p>React</p>
                     <p>PostgreSQL</p>
                     <p>Python</p>
                     <p>Jinja</p>
                     <p>Node.js</p>
                     <p>Express</p>
-                    <p>RESTful APIs</p>
-                    <p>SOAP APIs</p>
+                    <p>RESTful & SOAP APIs</p>
+                    {/* <p>SOAP APIs</p> */}
                     <p>HTML</p>
                     <p>CSS</p>
             </div>

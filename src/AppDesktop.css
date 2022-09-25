@@ -11,6 +11,11 @@
         /* font-size: .5rem; */
     }
 
+    #header-btn button:hover {
+        background-color: var(--orange);
+        color: var(--white);
+    }
+
 
     h3 {
         font-size: 0.7rem;
@@ -46,13 +51,13 @@
         height: 100%;
         box-shadow: inset 0 0 0 0 #ffffff;
         color: var(--white);
-        transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+        /* transition: color .3s ease-in-out, box-shadow .3s ease-in-out; */
     }
 
-    #skills-flex p:hover {
+    /* #skills-flex p:hover {
         box-shadow: inset 120px 0 0 0 #ffffff;
         color: var(--orange);
-    }
+    } */
     
     /* #header-btn { */
         /* align-items: center; */
