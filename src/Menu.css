@@ -1,5 +1,6 @@
 :root {
     --orange: rgb(241, 92, 12);
+    --lighter-orange: rgb(240, 116, 33);
     --white: #ffffff;
     font-size: 30pt;
 }
@@ -84,8 +85,10 @@
     font-size: 0.5rem;
     padding: 0.5rem;
     position: fixed;
-    background-color: var(--orange);
+    background-color: var(--lighter-orange);
+    /* box-shadow: 0 15px red; */
     width: 100%;
+
     /* z-index: 2; */
 }
 

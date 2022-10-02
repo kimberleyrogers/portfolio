@@ -28,21 +28,21 @@ function SingleProj({ index, projects }) {
     )
 }
 
-export function ComingSoonProj({ index, projects }) {
+// export function ComingSoonProj({ index, projects }) {
 
-    return (
-        <div className='singleProjContainer proj-square'>
-        {/* this indents a bit - why? */}
-        <h2 className="projTitle">{projects[index]['name']}</h2>
-        {/* blurb and desc can be one thing in projinfo */}
-        <h3 className="projSubTitle">{projects[index]['desc']}</h3>
-        <p className="projTech">{projects[index]['used']}</p>
-        <div className="projImage">
-            <img src={projects[index]['image']} alt="thumbnail of project"/>
-        </div>
-        <p className="projDesc">{projects[index]['blurb']}</p>
-    </div>
-    )
-}
+//     return (
+//         <div className='singleProjContainer proj-square'>
+//         {/* this indents a bit - why? */}
+//         <h2 className="projTitle">{projects[index]['name']}</h2>
+//         {/* blurb and desc can be one thing in projinfo */}
+//         <h3 className="projSubTitle">{projects[index]['desc']}</h3>
+//         <p className="projTech">{projects[index]['used']}</p>
+//         <div className="projImage">
+//             <img src={projects[index]['image']} alt="thumbnail of project"/>
+//         </div>
+//         <p className="projDesc">{projects[index]['blurb']}</p>
+//     </div>
+//     )
+// }
 
 export default SingleProj

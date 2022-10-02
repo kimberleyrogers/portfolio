@@ -21,11 +21,35 @@
 :root {
     --orange: rgb(241, 92, 12);
     --white: #ffffff;
+    --lighter-orange: rgb(240, 116, 33);
     max-width: 100%;
+    background-color: var(--orange);
 }
 
 .main-app {
-    background-color: var(--orange);
+    width: 100%;
+}
+
+
+.tiny {
+    font-size: 0.5rem;
+    margin: 0px;
+}
+
+.email a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.email a:hover {
+    font-weight: 900;
+}
+
+#header-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
 .app {
@@ -33,14 +57,20 @@
     grid-template-rows: repeat(6, auto);
     color: var(--white);
     font-family: poppins-light;
+    width: 100%;
 }
 
-.handwritten {
+.bold-text {
     font-family: poppins-heavy;
 }
 
 .strike {
     text-decoration: line-through;
+}
+
+#change-colour {
+    display: inline-block;
+    /* float: right; */
 }
 
 button {
@@ -51,7 +81,7 @@ button {
     border-radius: 5px;
     /* margin: 10px; */
     cursor: pointer;
-    border: 5px solid white;
+    border: 5px solid var(--white);
 }
 
 #header-btn {
