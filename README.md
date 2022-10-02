@@ -2,7 +2,7 @@
 
 ## 🔠 ABOUT
 
-A portfolio website created to showcase the projects I've created, and provide some bio and background for potential recruiters or hiring manager. I wanted a simple, clean website that was memorable, so orange was an obvious choice. The site is responsive and will look good on both mobile and desktop.
+A portfolio website created to showcase the projects I've created, and provide some bio and background for potential recruiters or hiring managers. I wanted a simple, clean website that was memorable, so orange was an obvious choice. The site is responsive and will look good on both mobile and desktop.
 
 ## 👉🏽 VISIT
 [Visit the live version of my portfolio](https://portfolio-kimberley-rogers.herokuapp.com/)
