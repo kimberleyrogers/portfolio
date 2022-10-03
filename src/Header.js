@@ -4,7 +4,7 @@ export function Header() {
     return (
         <section id="header-section">
             <h1 className="bold-text page-title">kimberley rogers</h1>
-            <p className="tiny email"><a href="mailto:kimberleymrogers@gmail.com" target="_blank">kimberleymrogers@gmail</a></p>
+            <p className="tiny email"><a href="mailto:kimberleymrogers@gmail.com" target="_blank">kimberleymrogers@gmail.com</a></p>
             <p className="tiny">0403 935 928</p>
             <div id="header-btn">
                 {/* eslint-disable-next-line */}
