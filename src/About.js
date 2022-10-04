@@ -17,7 +17,7 @@ function About() {
                     I bask in the talents of my teammates, letting them know how great they are and leading with empathy, encouragement and good humour. Solving problems is my safe space and my curious nature helps me to find solutions and build user friendly processes.</p>
                     <p>My dream job is doing these things together; team work, problem solving, building great things.</p>
                     {/* eslint-disable-next-line */}
-                    <a href="https://drive.google.com/file/d/1NxtMqLwFXU9YYYkybumtjfPjBqEpRXb5/view?usp=sharing" target="_blank">Take a look at my resume here</a>
+                    <a href="https://drive.google.com/file/d/1pHjFZpsfgONLGQuPvN5N5xooZMsm59X0/view?usp=sharing" target="_blank">Take a look at my resume here</a>
 
 
                 </div>

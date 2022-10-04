@@ -10,7 +10,7 @@ export function Header() {
                 {/* eslint-disable-next-line */}
                 <a href="https://linkedin.com/in/kimberley-rogers-melb/" target="_blank"><button>Linkedin</button></a>
                 {/* eslint-disable-next-line */}
-                <a href="https://drive.google.com/file/d/1NxtMqLwFXU9YYYkybumtjfPjBqEpRXb5/view?usp=sharing" target="_blank"><button>Resume</button></a>
+                <a href="https://drive.google.com/file/d/1pHjFZpsfgONLGQuPvN5N5xooZMsm59X0/view?usp=sharing" target="_blank"><button>Resume</button></a>
                 {/* eslint-disable-next-line */}
                 <a href="https://github.com/kimberleyrogers" target="_blank"><button>GitHub</button></a>
                 {/* eslint-disable-next-line */}
