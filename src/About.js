@@ -24,7 +24,7 @@ function About() {
                 <div>
                     <h3 className="bold-text">melbourne based human being</h3>
                     
-                    <p>Originally from the UK, I'm in the process of becoming an Aussie citizen. Aside from programming I spend my time exploring Melbourne, gawping at beautiful buildings and finding new places to eat great food. I listen to kpop every day and once took a dance class to <a href="https://www.youtube.com/watch?v=d7ZvOX8qZlc">this song.</a> I like running, especially with friends. I go for England at football, North Melbourne at AFL and BTS in everything else.</p>
+                    <p>Originally from the UK, I'm in the process of becoming an Aussie citizen. Aside from programming I spend my time exploring Melbourne, gawping at beautiful buildings and finding new places to eat great food. I have a soft spot for kpop and once took a dance class to <a href="https://www.youtube.com/watch?v=d7ZvOX8qZlc">this song.</a> I like running, especially with friends. I go for England at football, North Melbourne at AFL and BTS in everything else.</p>
                     <p>check out my <a href="https://www.linkedin.com/in/kimberley-rogers-melb/">linkedin</a> or <a href="mailto:kimberleymrogers@gmail.com">email me</a> to <span className="strike">talk celebrity gossip</span> connect</p>
                 </div>
             </div>
